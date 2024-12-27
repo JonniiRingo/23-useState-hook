@@ -11,6 +11,7 @@ function App() {
   function decrease(){
     setCount(count - 1 ); 
   }
+  
   return ( 
     <div className = "container">
       <h1>{count}</h1>
